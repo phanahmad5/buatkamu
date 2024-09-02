@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
         if (btn === 'Bn') {
             Swal.fire({
                 title: 'Oh no!',
-                text: 'Kamu menolak :(',
+                text: 'Kamu menolak🙁 :(',
                 icon: 'error',
                 confirmButtonText: 'Maaf ya'
             }).then(() => {

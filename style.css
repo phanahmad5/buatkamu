@@ -112,3 +112,35 @@ section {
 .sembunyi {
     display: none;
 }
+
+/* Gaya umum untuk tombol */
+.custom-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Gaya ketika tombol di-hover */
+.custom-button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+/* Gaya untuk tombol "Engga" */
+.cancel-button {
+    background-color: #f44336;
+}
+
+.cancel-button:hover {
+    background-color: #e53935;
+}
